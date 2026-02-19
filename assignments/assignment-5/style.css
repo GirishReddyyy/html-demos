@@ -1,0 +1,37 @@
+body {
+    background-color:aquamarine;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;   /* centers horizontally */
+    align-items: center;       /* centers vertically */
+    min-height: 100vh;         /* full viewport height */
+    text-align: center;
+}
+
+/* Center the main content */
+.city-page, .blue-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Flexbox for images */
+.img-container {
+    display: flex;
+    justify-content: center; /* centers images horizontally */
+    align-items: center;     /* aligns them vertically */
+    gap: 15px;               /* spacing between images */
+    margin: 20px 0;
+}
+
+.img-container img {
+    width: 200px;   /* adjust size as needed */
+    height: auto;
+    border-radius: 8px; /* optional for rounded corners */
+}
+.orange-army{
+    color:orange;
+    font-weight:bolder;
+}
